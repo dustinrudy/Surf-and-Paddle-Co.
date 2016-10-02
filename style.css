@@ -6,3 +6,62 @@ html {
 *, *:after, *:before {
 	box-sizing: inherit;
 }
+
+#wrapper {
+	width: 1300px;
+	height: 2104px;
+}
+
+#bgoverlay {
+	background-color: rgba(17,116,191,0.5);
+	height: 521px;
+	width: 1300px;
+}
+
+.row {
+	height: 521px;
+	width: 1300px;
+	background-size: cover;
+}
+
+.row:nth-child(2) {
+	height: 1151px;
+	width: 1300px;
+}
+
+.row:nth-child(3) {
+	height: 143px;
+	width: 1300px;
+}
+
+.row:nth-child(4) {
+	height: 428px;
+	width: 1300px;
+}
+
+#navbar {
+	display: flex;
+	float: left;
+}
+
+#navbar > p {
+	font-size: 12px;
+	font-family: 'Catamaran', sans-serif;
+	color: #083451;
+	margin-left: 180px;
+}
+
+ul {
+	padding-left: 0px;
+	display: flex;
+}
+
+li {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.bodytext {
+	font-family: 'Catamaran', sans-serif;
+	font-size: 10px;
+}
