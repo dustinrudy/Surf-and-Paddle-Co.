@@ -13,7 +13,7 @@ html {
 }
 
 #bgoverlay {
-	background-color: rgba(17,116,191,0.5);
+	background-color: rgba(17,116,191,0.75);
 	height: 521px;
 	width: 1300px;
 }
@@ -64,10 +64,14 @@ ul {
 li {
 	list-style-type: none;
 	padding-left: 0px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	color: #083452;
+	font-size: 16px;
 }
 
 .column_body {
 	width: 50%;
+	margin-left: 100px;
 }
 
 h1 {
@@ -76,7 +80,30 @@ h1 {
 	font-size: 72px;
 }
 
+.profilepic {
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+	background-image: url(images/Profilepic.jpg);
+	background-size: cover;
+	float: left;
+	margin-top: -20px;]
+	margin-right: 12px;
+	background-color: rgba(17,116,191,1);
+	background-blend-mode: overlay;
+
+}
+
+#authors {
+	font-family: 'Catamaran', sans-serif;
+	color: #ccc;
+	margin-top: -3px;
+}
+
 .bodytext {
 	font-family: 'Catamaran', sans-serif;
-	font-size: 10px;
+	font-size: 16px;
+	color: #5E686F;
+	clear: both;
+	line-height: 28px;
 }
