@@ -21,7 +21,6 @@ html {
 .row {
 	height: 521px;
 	width: 1300px;
-	background-size: cover;
 }
 
 .row:nth-child(2) {
@@ -32,6 +31,12 @@ html {
 .row:nth-child(3) {
 	height: 143px;
 	width: 1300px;
+	text-align: center;
+	font-size: 72px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	color: #083452;
+	border-top: 2px solid #ccc;
+
 }
 
 .row:nth-child(4) {
@@ -59,6 +64,16 @@ ul {
 li {
 	list-style-type: none;
 	padding-left: 0px;
+}
+
+.column_body {
+	width: 50%;
+}
+
+h1 {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	color: #083452;
+	font-size: 72px;
 }
 
 .bodytext {
