@@ -107,3 +107,7 @@ h1 {
 	clear: both;
 	line-height: 28px;
 }
+
+.rowpics {
+	display: inline;
+}
