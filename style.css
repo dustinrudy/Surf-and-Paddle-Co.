@@ -135,6 +135,17 @@ h1 {
 	text-decoration: underline;
 }
 
+#radical {
+	border-left: 2px solid #ccc;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 36px;
+	color: #106DB3;
+	padding-left: 15px;
+	padding-top: 5px;
+	height: 75px;
+
+}
+
 .bodytext {
 	font-family: 'Catamaran', sans-serif;
 	font-size: 18px;
