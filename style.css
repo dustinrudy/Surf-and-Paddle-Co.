@@ -75,6 +75,10 @@ h2 p {
 	width: 100%
 }
 
+.fa fa-search {
+	color: #083451;
+}
+
 ul {
 	padding-left: 0px;
 	display: flex;
@@ -133,7 +137,7 @@ h1 {
 
 .bodytext {
 	font-family: 'Catamaran', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	color: #5E686F;
 	clear: both;
 	line-height: 28px;
@@ -145,6 +149,8 @@ h1 {
     height: 216px;
     flex-direction: column;
     float: left;
+    background-color: rgba(17,116,191,0.75);
+    background-blend-mode: color;
 
 }
 
