@@ -141,21 +141,12 @@ h1 {
 
 .rowpics img {
 	display: flex;
-	width: 325px;;
-	flex-direction: column;
-	float: left;
+    width: 325px;
+    height: 216px;
+    flex-direction: column;
+    float: left;
 
 }
-
-.rowpics img:nth-child(3) {
-	height: 100px;
-
-}
-
-.rowpics img:nth-child(4) {
-	height: 100px;
-}
-
 
 #footer {
 	background-color: #083452;
